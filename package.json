@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "type": "module",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
