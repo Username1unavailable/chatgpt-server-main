@@ -10,7 +10,6 @@ const api = await getChatGPTAPI();
 app.use(cors());
 app.use(express.json());
 app.use(errorHandler);
-app.use(express.static('build'));
 app.get('/', (req, res) => {
     res.send('ChatGPT server is running OK');
 });
