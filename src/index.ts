@@ -62,3 +62,5 @@ app.post(
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
 });
+//PORT=8000
+//OPENAI_API_KEY="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"
